@@ -1,6 +1,10 @@
-## Overview
-- Discord bot that gets coinpoker's hot and cold wallet balances.
+## Overview & Features
+- Discord bot that messages user with CoinPoker's hot and cold wallet balances when user writes `!coin`.
+- Alchemy API rate limited to 10 requests per second.
+- Discord user call limited to once per 10 seconds.
+
 ![botping](botping.png)
+
 
 ## Setup
 - `npm install` to install dependencies
@@ -9,10 +13,6 @@
     - Discord bot token when creating bot.
 - This tutorial is great for setting up bot in discord developer application : https://www.youtube.com/watch?v=KZ3tIGHU314
 
-## Hosting
-Hosting Your Bot: Decide where to host your bot for 24/7 uptime.
-Vercel: More front-end and serverless functions oriented but possible to run bots if they are not resource-intensive.
-Heroku: Offers a free tier and is quite popular for small Discord bots.
-Glitch: Also a popular choice for hosting simple bots.
 
-Query limits to avoid abuse. (For discord and alchemy API).
+## Hosting
+- Heroku: Offers a free tier and is quite popular for small Discord bots.
