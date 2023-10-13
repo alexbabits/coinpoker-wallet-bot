@@ -13,3 +13,4 @@
     - Alchemy API key and HTTPS link to fetch on chain data, make sure app is ethereum mainnet. 
     - Discord bot token when creating bot.
 - This tutorial is great for setting up bot in discord developer application : https://www.youtube.com/watch?v=KZ3tIGHU314
+- When setting up a bot in the OAuth2 URL Generator tab in the discord/developers/applications, select `bot` and `application.commands`, and give bot `Administrator` permissions. You will get a generated URL at the bottom, copy paste that into your discord server, click on it and authorize it. This brings your bot into the server.
