@@ -1,5 +1,6 @@
 ## Overview & Features
 - Discord bot that messages user with CoinPoker's hot and cold wallet balances when user writes `!coin`.
+- Run with `node src/index.js`
 - Alchemy API rate limited to 10 requests per second. (8 coins = 8 requests).
 - Discord user call limited to once per 10 seconds.
 
